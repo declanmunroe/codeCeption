@@ -1,0 +1,5 @@
+tests\acceptance\ContactUsCest.php:requiredFieldsTwo
+tests\acceptance\ContactUsCest.php:contactCorrect
+tests\acceptance\SignInCest.php:forgotPasswordInjection
+tests\acceptance\SignUpCest.php:planThirteenPayPal
+tests\acceptance\SignUpCest.php:planFourteen

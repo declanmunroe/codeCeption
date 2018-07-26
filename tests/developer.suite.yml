@@ -1,0 +1,10 @@
+actor: DeveloperTester
+modules:
+    enabled:
+        - WebDriver:
+            url: 'http://ics.staging/'
+            window-size: maximise
+            port: 9515
+            browser: chrome
+            paths:
+                envs: tests/_envs

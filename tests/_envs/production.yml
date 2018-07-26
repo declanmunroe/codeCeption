@@ -1,0 +1,13 @@
+# `production` environment config goes here
+
+actor: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+            url: 'https://www.ics.ie/'
+            window-size: maximise
+            port: 9515
+            browser: chrome
+            paths:
+                envs: tests/_envs
+
